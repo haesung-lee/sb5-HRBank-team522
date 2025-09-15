@@ -42,6 +42,8 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+	runtimeOnly 'com.h2database:h2'          // H2 DB 추가 (테스트/로컬 개발용)
+
     // QueryDSL JPA
     implementation 'com.querydsl:querydsl-jpa:5.1.0:jakarta'
     // QueryDSL Annotation Processor
