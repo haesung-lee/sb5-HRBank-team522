@@ -1,0 +1,5 @@
+[build]
+command = "./gradlew clean bootJar -x test"
+
+[start]
+command = "java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/app.jar"
