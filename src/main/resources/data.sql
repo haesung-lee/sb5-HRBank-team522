@@ -1,4 +1,4 @@
-INSERT INTO departments (id, name, description, established_date) VALUES (1, '인사팀', '인사 관리를 담당하는 부서', '2020-01-15');
+﻿INSERT INTO departments (id, name, description, established_date) VALUES (1, '인사팀', '인사 관리를 담당하는 부서', '2020-01-15');
 INSERT INTO departments (id, name, description, established_date) VALUES (2, '총무팀', '각종 업무를 담당하는 부서', '2019-05-20');
 INSERT INTO departments (id, name, description, established_date) VALUES (3, '마케팅팀', '제품 홍보 및 마케팅을 담당하는 부서', '2021-03-10');
 INSERT INTO departments (id, name, description, established_date) VALUES (4, '영업1팀', '제품 판매 및 고객 관리를 담당하는 부서', '2020-04-01');

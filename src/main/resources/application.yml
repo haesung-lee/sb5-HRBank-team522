@@ -24,6 +24,10 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
         physical_naming_strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
         jdbc.time_zone: UTC
+  sql:
+    init:
+      mode: always
+      encoding: utf-8
 
 # swagger
 springdoc:
