@@ -13,10 +13,7 @@ java {
 		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
-//배포용 설정
-bootJar {
-    archiveFileName = 'app.jar'
-}
+
 
 configurations {
 	compileOnly {
